@@ -1,0 +1,25 @@
+1)Print the total population of countries using reduce function;
+
+var res1=res.reduce((acc,cv)=>acc+cv.population,0);
+
+    console.log(res1);
+
+2)Get all the countries with a population of less than 2 lakhs using Filter function;
+
+var pop = res.filter((ele)=>ele.population<200000)
+console.log(pop);
+var res1 = res.map((ele)=>ele.name)
+console.log(res);
+
+3)Get all the countries from the Asia continent /region using the Filter function;
+
+   var reg = res.filter((ele)=>ele.region=="Asia");
+   console.log(reg);
+   var res1 = reg.map((ele)=>ele.name);
+   console.log(res1);
+
+4)Print the following details name, capital, flag using forEach function;
+
+var reg = res.forEach(element => {console.log(element.name,element.capital,element.flags.png)
+        
+     });
