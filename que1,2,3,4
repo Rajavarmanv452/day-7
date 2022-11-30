@@ -20,6 +20,6 @@ console.log(res);
 
 4)Print the following details name, capital, flag using forEach function;
 
-var reg = res.forEach(element => {console.log(element.name,element.capital,element.flags.png)
+var reg = res.forEach((element) => {console.log(element.name,element.capital,element.flags.png)});
         
-     });
+     
